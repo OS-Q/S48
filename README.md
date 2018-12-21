@@ -1,4 +1,4 @@
-﻿# W8：[文件输出](https://github.com/OS-Q/W8)
+﻿# W8：[空间输出](https://github.com/OS-Q/W8)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,9 +8,9 @@
 
 ## [平台描述](https://github.com/OS-Q/W8/wiki) 
 
-W8文件输出平台，用于对用户显示和呈现信息
+W8空间输出平台，用于输出位置控制，包括一维,二维和三维。
 
-### [共用资源](https://github.com/OS-Q/W8/wiki) 
+## [共用资源](OS-Q/) 
 
 #### [归一化层](OS-Q/)
 
@@ -22,33 +22,33 @@ W8文件输出平台，用于对用户显示和呈现信息
 
 ## [包含设备](https://github.com/OS-Q/W8/wiki) 
 
-#### D50：[周期驱动](https://github.com/OS-Q/D50)
+#### D50：[一维定位](https://github.com/OS-Q/D50)
 
-通过定时驱动文件实现周期对外数据输出
+输出一维空间位置，一维线性空间定位
 
-#### D51：[模拟键鼠](https://github.com/OS-Q/D51)
+#### D51：[二维定位](https://github.com/OS-Q/D51)
 
-通过模拟键鼠实现上层系统配置
+输出二维空间位置，二维线性空间定位
 
-#### D52：[环境控制](https://github.com/OS-Q/D52)
+#### D52：[三维定位](https://github.com/OS-Q/D52)
 
-通过时间控制表完成环境调节
+输出三维空间位置，三维线性空间定位
 
-#### D53：[3D打印机](https://github.com/OS-Q/D53)
+#### D53：[极轴运动](https://github.com/OS-Q/D53)
 
-通过时序表驱动完成驱动加工
+输出极轴圆周运动，包括定位和运动
 
-#### D54：[NULL](https://github.com/OS-Q/D54)
+#### D54：[一维运动](https://github.com/OS-Q/D54)
 
+通过程式文件输出一维程式运动
 
+#### D55：[二维运动](https://github.com/OS-Q/D55)
 
-#### D55：[NULL](https://github.com/OS-Q/D55)
+通过程式文件输出二维程式运动
 
+#### D56：[三维运动](https://github.com/OS-Q/D56)
 
-
-#### D56：[NULL](https://github.com/OS-Q/D56)
-
-
+通过程式文件输出三维程式运动
 
 ## [同级平台](https://github.com/OS-Q/M2/wiki)
 
@@ -64,9 +64,9 @@ W8文件输出平台，用于对用户显示和呈现信息
 
 连接显示设备，驱动显示相关信息
 
-#### -> W8：[文件输出](https://github.com/OS-Q/W8)
+#### -> W8：[空间输出](https://github.com/OS-Q/W8)
 
-具有时间或条件控制的数据流输出
+通过驱动装置实现空间位置输出
 
 #### W9：[组合输出](https://github.com/OS-Q/W9)
 
@@ -77,6 +77,6 @@ W8文件输出平台，用于对用户显示和呈现信息
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2018-12-11
+####  @ 2018-12-21
 
 ---
